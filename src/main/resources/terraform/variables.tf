@@ -1,21 +1,24 @@
 variable "aws_region" {
-  default = "us-east-1"
+  description = "AWS region"
+  type        = string
+  default     = "us-east-1"
 }
 
-variable "instance_type" {
-  default = "t2.micro"
+variable "s3_bucket_name" {
+  description = "The name of the S3 bucket"
+  type        = string
+  default     = "name your bucket"
 }
 
 variable "key_name" {
-  description = "SSH key name"
-  default     = "your-key-name"
+  description = "Key pair for EC2 instance"
+  type        = string
+  default     = "enter your key"
 }
 
-variable "repo_url" {
-  description = "GitHub repo to clone"
-  default     = "https://github.com/rakeshkuncham/realreview-project.git"
+variable "instance_type" {
+  description = "EC2 instance type"
+  type        = string
+  default     = "t2.micro"
 }
 
-variable "app_port" {
-  default = 80
-}
