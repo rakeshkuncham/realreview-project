@@ -5,9 +5,6 @@
 
 ### ✅ README for `main` branch (Assessment 2)
 
-In your **`main` branch**, update the `README.md` file like this:
-
-```markdown
 # DevOps Assessment 2 - Extended EC2 Automation with S3 and IAM
 
 ## Description
